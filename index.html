@@ -424,8 +424,7 @@
         let ah = alarm.value.split(":")[0];
         let am = alarm.value.split(":")[1];
         if (dt.getHours() == ah && dt.getMinutes() == am) {
-          let audiolink =
-            "https://file-examples.com/storage/fe0358100863d05afed02d2/2017/11/file_example_MP3_700KB.mp3";
+          let audiolink = "./Funny Meme Sound Effect.mp3";
           var run = new Audio(audiolink);
           run.play();
         }
